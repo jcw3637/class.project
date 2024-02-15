@@ -1,0 +1,48 @@
+---
+title: "Summary"
+author: "Jessie Wilson"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r Data Loading}
+knitr::opts_chunk$set(echo = TRUE)
+
+seasonality <- read.csv("https://github.com/jcw3637/class.project/blob/4f16445b427848b3b9734ed33002a07d84814c51/fire.scar_season.data_csv")
+
+
+```
+
+# **Cass Project Summary: Fire Scar Seasonality vs Fire Records** 
+
+University of North Carolina Wilmington
+
+EVS 591: Data Management
+
+Jessie Wilson
+
+------------------------------------------------------------------------
+
+## **Abstract**
+
+Tree-ring based fire-history methods allow researchers to determine the year and often season of past fires. This can help researchers determine if the fires were anthropogenic or natural in orgin, as anthropogenic fires occur during different times of the year than natural.
+
+Locations with well-documented records of recent fire activity, such as the Red Hills Region of northern Florida and southwestern Georgia, provide a unique opportunity to assess methods to determine fire scar seasonatily. This project will compare tree-ring based fire records to land management records of fire history to test the accuracy of dendroecological fire history methods.
+
+The study will use previously collected fire-scarred cross sections of longleaf pine (Pinus palustris) and other southern pines from 40 trees at 3 sites in the Red Hills Region (Pebble Hill, Tall Timbers, and Wade Tract). Dendroecological methods have already been used to reconstruct fire history from fire scars. This project will compare the tree-ring based reconstruction to the land management records of fire. Preliminary findings show that our dendroecological estimates of fire frequency and season based on fire-scar position generally align with known prescribed fire dates. However, some disagreement between the land management and dendroecological records of fire indicate that these data are not without limitations. 
+
+I will present this work at the Biannual Graduate Research Symposium and create a poster for the University wide graduate student creativity showcase. I will write a Research Note paper with the goal of starting the publication process by the end of the semester.  
+
+------------------------------------------------------------------------
+
+## **Goals**
+
+-   **One:** Finalize the seasonality box plot.
+
+    -   I now know how to add all the information I need, but I am not happy with the scale and looks. I want to adjust more so it communicate everything cleanly.
+
+-   **Two:** Create a visual graph comparing the known seasonality of the fire scars from land records to the assigned seasonality.
+
+    -   I say visual representation because I am unsure what will be the most effective representation.
+
+-   **Three:** I would like to explore the data geospatially as it is from several different sites. I need to download the geographic data from the arch-share first. After, I am not sure how to explore it in R are even what patterns I will find or if I will even find any patterns. But I think it will be good to build those skills.
