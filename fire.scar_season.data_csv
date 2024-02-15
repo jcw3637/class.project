@@ -1,4 +1,4 @@
-﻿UniqueID,SiteCode,SubsiteCode,FireScarYear,FireScarCode,NumericFireScarCode,ConfidenceInSeasonality,TreeID,DBH,TreeSpeciesCode,RxFireDate,NthDay,ActualDateIsMonthOnly ,Notes
+﻿UniqueID,SiteCode,SubsiteCode,FireScarYear,FireScarCode,NumericFireScarCode,ConfidenceInSeasonality,TreeID,DBH,TreeSpeciesCode,RxFireDate,NthDay,ActualDateIsMonthOnly,Notes
 69,TT,tower,1990,U,,Poor,TT12,57.9,PIPA,1/24/1990,24,no,
 80,TT,tower,1990,DO,1,Poor,TT13,54.9,PIPA,1/24/1990,24,no,
 35,TT,planted,1990,DO,1,Excellent,TT09,24.4,PIPA,2/8/1990,39,no,
